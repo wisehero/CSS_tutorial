@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+a {
+  font-size: 18px;
+  line-height: 20px;
+  color: #8492a6;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.tab-menu {
+  max-width: 540px;
+  border-bottom: 1px solid #e5eaef;
+  background-color: #ffffff;
+}
+
+.tab-menu::after {
+  content: ""; /* 가상 선택자는 반드시 이 요소를 써야함 */
+  display: block; /* 가상 선택자 사용 시 디스플레이는 반드시 블록 */
+  clear: left;
+}
+
+.tab-menu-item {
+  float: left;
+  margin-right: 16px;
+}
+
+.tab-menu-item a {
+  padding: 16px 20px;
+  display: block;
+}
+
+.tab-menu-item.selected {
+  border-bottom: 2px solid blue;
+}
+
+.tab-menu-item.selected a {
+  color: blue;
+  font-weight: 500;
+}
