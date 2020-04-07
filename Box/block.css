@@ -1,0 +1,17 @@
+.parent {
+  display: block;
+  background-color: bisque;
+}
+
+.child {
+  background-color: yellow;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 500px;
+}
+
+.other {
+  width: 100px;
+  background-color: blue;
+}
