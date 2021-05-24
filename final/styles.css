@@ -65,6 +65,12 @@ body {
   color: #2b292d;
 }
 
+/* Program */
+
+.program .section-category {
+  color: #009b40;
+}
+
 /*  >= 768px (Desktop) */
 
 @media screen and (min-width: 768px) {
@@ -95,6 +101,19 @@ body {
     font-size: 18px;
     line-height: 1.5555555556;
   }
+
+  .section-category {
+    margin-bottom: 16px;
+    font-size: 22px;
+    line-height: 1.0909090909;
+  }
+
+  .section-title {
+    margin-bottom: 32px;
+    font-size: 56px;
+    line-height: 1;
+  }
+
   .landing .button-group .fill-button:first-child {
     margin-right: 16px;
   }
@@ -107,6 +126,12 @@ body {
   .service-title {
     font-size: 26px;
     line-height: 1.3076923077;
+  }
+
+  /* Program */
+
+  .program {
+    text-align: center;
   }
 }
 /* Custom Grid System - Fix container width */
