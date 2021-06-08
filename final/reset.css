@@ -47,6 +47,7 @@ p {
   font-weight: 700;
   border-radius: 2px;
   transition: opacity 300ms ease-in-out;
+  border: none;
 }
 
 .fill-button:hover {
